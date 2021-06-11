@@ -15,6 +15,9 @@ namespace CGM
         [Header("我的UILoader")]
         public CGM_UILoader m_UILoader;
 
+        [Header("我的AudioManager")]
+        public CGM_AudioManager m_AudioManager;
+
         //游戏状态
         public int State = 0; //0=startScene,1=GameScene,
 
