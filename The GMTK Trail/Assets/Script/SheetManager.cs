@@ -101,4 +101,42 @@ public class SheetManager : MonoBehaviour
         }
         newSlots.Enqueue(language);
     }
+    public bool Compare(AnimalDataBaseParameter ani1, AnimalDataBaseParameter ani2)
+    {
+        //Ac -- Ab
+        if (ani1.type == ani2.type)
+        {
+            return true;
+        }
+        //Ac -- Ca
+        LanguageParameter ani1Lang = CenterGameManager.instance.m_SaveDataManager.m_languageSheet.data.Find(a => a.type == ani1.type);
+        LanguageParameter ani2Lang = CenterGameManager.instance.m_SaveDataManager.m_languageSheet.data.Find(a => a.type == ani2.type);
+        if (ani1.newSlots.Contains(ani2Lang) && ani2.newSlots.Contains(ani1Lang))
+        {
+            return true;
+        }
+        //Ac -- Baa
+        int count = 0;
+        foreach (var i in ani1.newSlots)
+        {
+            if (i.type == ani2.type)
+                count++;
+        }
+        if (count >= 2)
+            return true;
+        else
+            count = 0;
+        foreach (var i in ani2.newSlots)
+        {
+            if (i.type == ani1.type)
+                count++;
+        }
+        if (count >= 2)
+            return true;
+        else
+            count = 0;
+
+        return false;
+    }
+
 }
