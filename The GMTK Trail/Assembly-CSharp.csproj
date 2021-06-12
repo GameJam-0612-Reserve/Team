@@ -56,7 +56,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\DataSheet\AnimalDataBaseSheet.cs" />
     <Compile Include="Assets\Script\0LogicalInit\MakeItToStartScene.cs" />
+    <Compile Include="Assets\Script\Util\Consts.cs" />
     <Compile Include="Assets\Script\CenterGameManager\CGM_SaveDataManager.cs" />
     <Compile Include="Assets\Script\Util\Singleton.cs" />
     <Compile Include="Assets\3rdParty\DataSheetLab\Example\IngameRefer.cs" />
@@ -65,16 +67,20 @@
     <Compile Include="Assets\3rdParty\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\Script\3GameScene\m_inputAction.cs" />
     <Compile Include="Assets\Script\1StartScene\StartButton.cs" />
+    <Compile Include="Assets\Resources\DataSheet\LevelSheet.cs" />
     <Compile Include="Assets\3rdParty\SaveGame\Scripts\TestSaveGame.cs" />
     <Compile Include="Assets\3rdParty\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Script\2BeginnerGuid\TutorAnimalClass.cs" />
     <Compile Include="Assets\Script\2BeginnerGuid\PlayAniClips.cs" />
     <Compile Include="Assets\3rdParty\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Resources\DataSheet\LanguageSheet.cs" />
+    <Compile Include="Assets\Script\CenterGameManager\CGM_AudioManager.cs" />
     <Compile Include="Assets\Script\CenterGameManager\CGM_GamePlayManager.cs" />
     <Compile Include="Assets\3rdParty\SaveGame\Scripts\SaveSystem\SaveSystem.cs" />
     <Compile Include="Assets\3rdParty\SaveGame\Scripts\SaveSystemSetup.cs" />
     <Compile Include="Assets\Script\2BeginnerGuid\LoginGuid.cs" />
     <Compile Include="Assets\Script\CenterGameManager\CGM_UILoader.cs" />
+    <Compile Include="Assets\Script\CenterGameManager\SFX_SelfDestruction.cs" />
     <Compile Include="Assets\Script\CenterGameManager\CenterGameManager.cs" />
     <Compile Include="Assets\3rdParty\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\3rdParty\SaveGame\Scripts\SaveSystem\SaveSystemData.cs" />
@@ -84,12 +90,6 @@
     <Compile Include="Assets\3rdParty\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\3rdParty\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Script\CenterGameManager\CGM_SceneIniter.cs" />
-    <Compile Include="Assets\Resources\DataSheet\LevelSheet.cs" />
-    <Compile Include="Assets\Resources\DataSheet\LanguageSheet.cs" />
-    <Compile Include="Assets\Script\Util\Consts.cs" />
-    <Compile Include="Assets\Script\CenterGameManager\SFX_SelfDestruction.cs" />
-    <Compile Include="Assets\Resources\DataSheet\AnimalDataBaseSheet.cs" />
-    <Compile Include="Assets\Script\CenterGameManager\CGM_AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3rdParty\Demigiant\DOTween\DOTween.XML" />
