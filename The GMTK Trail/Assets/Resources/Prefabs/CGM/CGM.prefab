@@ -440,6 +440,8 @@ MonoBehaviour:
   m_UILoader: {fileID: 8056290247809916471}
   m_AudioManager: {fileID: 0}
   State: 0
+  Cursor1: {fileID: 2800000, guid: 51add41c56f941649a28b6094d44a2ab, type: 3}
+  Cursor2: {fileID: 2800000, guid: c287c21afc4214a4fbc279325ab5cbc7, type: 3}
 --- !u!114 &8056290247809916425
 MonoBehaviour:
   m_ObjectHideFlags: 0
