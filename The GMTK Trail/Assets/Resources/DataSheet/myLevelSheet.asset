@@ -26,6 +26,7 @@ MonoBehaviour:
   - ID: 3
     name: Tutorial1-3
     Animals: 020000000200000007000000070000000d0000000d000000
+    NameOfNextScene: 05BasicScene_Lv1_4
     NameOfThisScene: 04TutorialScene_Lv1_3
   - ID: 4
     name: Level1-4
