@@ -17,29 +17,34 @@ MonoBehaviour:
     type: 0
     LearningSpeed: 1
     canLearn: 1
-    charaTexture: {fileID: 10910, guid: 0000000000000000f000000000000000, type: 0}
-    iconTexture: {fileID: 2800000, guid: c8b458b7ebbdce942aaaf1ae80f16458, type: 3}
+    charaTexture: {fileID: 2800000, guid: 1994436b20fd7c745a2bb2d78fa3e3d8, type: 3}
+    miniIconTexture: {fileID: 2800000, guid: 56feba46f5aa06948a0ae7f0e33ac752, type: 3}
+    bigIconTexture: {fileID: 2800000, guid: 86dc68286b1dc5e4184ee36f7779f850, type: 3}
   - ID: 2
     type: 1
     LearningSpeed: 1
     canLearn: 1
-    charaTexture: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
-    iconTexture: {fileID: 10900, guid: 0000000000000000f000000000000000, type: 0}
+    charaTexture: {fileID: 2800000, guid: 3507b0044ff635e41961d7de6c70bd57, type: 3}
+    miniIconTexture: {fileID: 2800000, guid: fc62da7927e7091428b819d817f68f20, type: 3}
+    bigIconTexture: {fileID: 2800000, guid: 2d3207b1318945c4387233b0991ab4ca, type: 3}
   - ID: 3
     type: 2
     LearningSpeed: 0.5
     canLearn: 1
-    charaTexture: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
-    iconTexture: {fileID: 10914, guid: 0000000000000000f000000000000000, type: 0}
+    charaTexture: {fileID: 2800000, guid: bb68633acd42e8148a4b35e1aa7af10a, type: 3}
+    miniIconTexture: {fileID: 2800000, guid: 69b862aa5c8c0ac43b64b095b73c93b0, type: 3}
+    bigIconTexture: {fileID: 2800000, guid: f24486bd72da05a4dbd81c8f93621bca, type: 3}
   - ID: 4
     type: 3
     LearningSpeed: 8
     canLearn: 1
-    charaTexture: {fileID: 2800000, guid: 78a59ca99f8987941adb61f9e14a06a7, type: 3}
-    iconTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+    charaTexture: {fileID: 2800000, guid: 3b8fed39faf9f23488691ea1c1f9818e, type: 3}
+    miniIconTexture: {fileID: 2800000, guid: beb69ceb431057c47ad60edbbe79ba7a, type: 3}
+    bigIconTexture: {fileID: 2800000, guid: ba2e6ce151feb334bb7a47d8e154a513, type: 3}
   - ID: 5
     type: 4
     LearningSpeed: 0
     canLearn: 0
-    charaTexture: {fileID: 2800000, guid: faadb8b8f464c5940ba8cff422aa60ec, type: 3}
-    iconTexture: {fileID: 10305, guid: 0000000000000000f000000000000000, type: 0}
+    charaTexture: {fileID: 2800000, guid: 18882ccb80807d64695f4f8dd1ae0068, type: 3}
+    miniIconTexture: {fileID: 2800000, guid: e8c606a2aa6bc8c48b4505585b534a90, type: 3}
+    bigIconTexture: {fileID: 2800000, guid: 290eec743698dff438c49e251dd6f675, type: 3}
