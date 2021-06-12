@@ -12,7 +12,7 @@ using geniikw.DataSheetLab;
         public int ID;
 
         //名字
-        public string name;
+        public AnimalType type;
         
         //学习速度
         public float LearningSpeed;

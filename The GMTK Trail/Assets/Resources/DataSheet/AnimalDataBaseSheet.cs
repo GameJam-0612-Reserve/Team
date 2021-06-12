@@ -6,10 +6,16 @@ using geniikw.DataSheetLab;
 
 
     [Serializable]
-    public class AnimalParameter
+    public class AnimalDataBaseParameter
 {
         //ID
         public int ID;
+
+    //AnimalID
+    public int AnimalID;
+
+    //所属关卡
+    public int Level;
 
         //名字
         public string name;
@@ -18,11 +24,11 @@ using geniikw.DataSheetLab;
         public AnimalType type;
         
         //二语言栏
-        public int slotCount;
+        public List<AnimalType> slots;
     }
 
     /// <summary>
     /// sheet class name must be same with file name.
     /// </summary>
     [CreateAssetMenu]
-    public class AnimalSheet : Sheet<AnimalParameter> { }
+    public class AnimalDataBaseSheet : Sheet<AnimalDataBaseParameter> { }

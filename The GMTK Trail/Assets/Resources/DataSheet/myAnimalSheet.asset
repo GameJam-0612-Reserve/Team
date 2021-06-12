@@ -14,102 +14,102 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - ID: 1
-    name: A
-    firstLanguageID: 1
+    name: A0
+    type: 0
     slotCount: 0
   - ID: 2
     name: A1
-    firstLanguageID: 1
+    type: 0
     slotCount: 1
   - ID: 3
     name: A2
-    firstLanguageID: 1
+    type: 0
     slotCount: 2
   - ID: 4
     name: A3
-    firstLanguageID: 1
+    type: 0
     slotCount: 3
   - ID: 5
     name: A4
-    firstLanguageID: 1
+    type: 0
     slotCount: 4
   - ID: 6
-    name: B
-    firstLanguageID: 2
+    name: B0
+    type: 1
     slotCount: 0
-  - ID: 0
+  - ID: 7
     name: B1
-    firstLanguageID: 2
+    type: 1
     slotCount: 1
-  - ID: 0
+  - ID: 8
     name: B2
-    firstLanguageID: 2
+    type: 1
     slotCount: 2
-  - ID: 0
+  - ID: 9
     name: B3
-    firstLanguageID: 2
+    type: 1
     slotCount: 3
-  - ID: 0
+  - ID: 10
     name: B4
-    firstLanguageID: 2
+    type: 1
     slotCount: 4
-  - ID: 0
-    name: C
-    firstLanguageID: 3
+  - ID: 11
+    name: C0
+    type: 2
     slotCount: 0
-  - ID: 0
+  - ID: 12
     name: C1
-    firstLanguageID: 3
+    type: 2
     slotCount: 1
-  - ID: 0
+  - ID: 13
     name: C2
-    firstLanguageID: 3
+    type: 2
     slotCount: 2
-  - ID: 0
+  - ID: 14
     name: C3
-    firstLanguageID: 3
+    type: 2
     slotCount: 3
-  - ID: 0
+  - ID: 15
     name: C4
-    firstLanguageID: 0
+    type: 2
     slotCount: 4
-  - ID: 0
-    name: D
-    firstLanguageID: 4
+  - ID: 16
+    name: D0
+    type: 3
     slotCount: 0
-  - ID: 0
+  - ID: 17
     name: D1
-    firstLanguageID: 4
+    type: 3
     slotCount: 1
-  - ID: 0
+  - ID: 18
     name: D2
-    firstLanguageID: 4
+    type: 3
     slotCount: 2
-  - ID: 0
+  - ID: 19
     name: D3
-    firstLanguageID: 4
+    type: 3
     slotCount: 3
-  - ID: 0
+  - ID: 20
     name: D4
-    firstLanguageID: 4
+    type: 3
     slotCount: 4
-  - ID: 0
-    name: E
-    firstLanguageID: 5
+  - ID: 21
+    name: E0
+    type: 4
     slotCount: 0
-  - ID: 0
+  - ID: 22
     name: E1
-    firstLanguageID: 5
+    type: 4
     slotCount: 1
-  - ID: 0
+  - ID: 23
     name: E2
-    firstLanguageID: 5
+    type: 4
     slotCount: 2
-  - ID: 0
+  - ID: 24
     name: E3
-    firstLanguageID: 5
+    type: 4
     slotCount: 3
-  - ID: 0
+  - ID: 25
     name: E4
-    firstLanguageID: 5
+    type: 4
     slotCount: 4

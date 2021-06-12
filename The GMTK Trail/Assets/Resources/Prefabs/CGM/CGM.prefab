@@ -453,7 +453,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_animalSheet: {fileID: 11400000, guid: afa9771ed8655434c97058f68137a29e, type: 2}
+  m_animalDataBaseSheet: {fileID: 11400000, guid: 96ff5b1de703379408c5ac9e40d468c1,
+    type: 2}
   m_languageSheet: {fileID: 11400000, guid: 07d4953f5e974734bbc508bf13680aae, type: 2}
+  m_levelSheet: {fileID: 11400000, guid: 907a7b4938aefac4c857871be1cf7689, type: 2}
 --- !u!114 &8056290247809916424
 MonoBehaviour:
   m_ObjectHideFlags: 0

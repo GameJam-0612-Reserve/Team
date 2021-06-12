@@ -14,31 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - ID: 1
-    name: "\u732B"
+    type: 0
     LearningSpeed: 1
     canLearn: 1
     charaTexture: {fileID: 10910, guid: 0000000000000000f000000000000000, type: 0}
     iconTexture: {fileID: 2800000, guid: c8b458b7ebbdce942aaaf1ae80f16458, type: 3}
   - ID: 2
-    name: "\u72D7"
+    type: 1
     LearningSpeed: 1
     canLearn: 1
     charaTexture: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
     iconTexture: {fileID: 10900, guid: 0000000000000000f000000000000000, type: 0}
   - ID: 3
-    name: "\u6811\u61D2"
+    type: 2
     LearningSpeed: 0.5
     canLearn: 1
     charaTexture: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
     iconTexture: {fileID: 10914, guid: 0000000000000000f000000000000000, type: 0}
   - ID: 4
-    name: "\u9E45"
+    type: 3
     LearningSpeed: 8
     canLearn: 1
     charaTexture: {fileID: 2800000, guid: 78a59ca99f8987941adb61f9e14a06a7, type: 3}
     iconTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
   - ID: 5
-    name: "\u673A\u5668\u4EBA"
+    type: 4
     LearningSpeed: 0
     canLearn: 0
     charaTexture: {fileID: 2800000, guid: faadb8b8f464c5940ba8cff422aa60ec, type: 3}
