@@ -23,8 +23,11 @@ using geniikw.DataSheetLab;
         //角色图
         public Texture charaTexture;
 
-        //图标图
-        public Texture iconTexture;
+        //小图标图
+        public Texture miniIconTexture;
+
+    //大图标图
+    public Texture bigIconTexture;
 }
 
     /// <summary>
