@@ -91,6 +91,7 @@
     <Compile Include="Assets\Script\CenterGameManager\CGM_SceneIniter.cs" />
     <Compile Include="Assets\Script\3GameScene\InitationAnimal.cs" />
     <Compile Include="Assets\Script\3GameScene\AnimalProperty.cs" />
+    <Compile Include="Assets\Script\SheetManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3rdParty\Demigiant\DOTween\DOTween.XML" />

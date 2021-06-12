@@ -9,8 +9,8 @@ public class SheetManager : MonoBehaviour
     void Start()
     {
         //Examples:
-        // ClearAllLevelSheet();
-        // CreateLevelSheet(4);
+        //ClearAllLevelSheet();
+        //CreateLevelSheet(4);
 
         // AnimalDataBaseSheet animalDataBaseSheet = CenterGameManager.instance.m_SaveDataManager.m_animalDataBaseSheet;
         // Debug.Log(animalDataBaseSheet.data[0].type);
