@@ -12,4 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de79137f16bcbf943b3cb9ace31950b4, type: 3}
   m_Name: myAnimalDataBaseSheet
   m_EditorClassIdentifier: 
-  data: []
+  data:
+  - ID: 1
+    AnimalID: 2
+    Level: 1
+    name: 
+    type: 0
+    slots: 05000000
+  - ID: 2
+    AnimalID: 7
+    Level: 1
+    name: 
+    type: 0
+    slots: 05000000

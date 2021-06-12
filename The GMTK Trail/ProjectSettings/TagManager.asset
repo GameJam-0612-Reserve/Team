@@ -18,6 +18,11 @@ TagManager:
   - GPM
   - Ally
   - UICanvas
+  - Animal
+  - LinkMenu
+  - CheckSlot
+  - CheckMenu
+  - LinkData
   layers:
   - Default
   - TransparentFX
@@ -30,7 +35,7 @@ TagManager:
   - IgnoreCollide
   - Player
   - Enemy
-  - 
+  - Animal
   - 
   - 
   - 
