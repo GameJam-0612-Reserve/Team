@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d9585c2e1ed764a8c81736767db1e8, type: 3}
+  m_Name: myAnimalSheet
+  m_EditorClassIdentifier: 
+  data:
+  - ID: 1
+    name: A
+    firstLanguageID: 1
+    slotCount: 0
+  - ID: 2
+    name: A1
+    firstLanguageID: 1
+    slotCount: 1
+  - ID: 3
+    name: A2
+    firstLanguageID: 1
+    slotCount: 2
+  - ID: 4
+    name: A3
+    firstLanguageID: 1
+    slotCount: 3
+  - ID: 5
+    name: A4
+    firstLanguageID: 1
+    slotCount: 4
+  - ID: 6
+    name: B
+    firstLanguageID: 2
+    slotCount: 0
+  - ID: 0
+    name: B1
+    firstLanguageID: 2
+    slotCount: 1
+  - ID: 0
+    name: B2
+    firstLanguageID: 2
+    slotCount: 2
+  - ID: 0
+    name: B3
+    firstLanguageID: 2
+    slotCount: 3
+  - ID: 0
+    name: B4
+    firstLanguageID: 2
+    slotCount: 4
+  - ID: 0
+    name: C
+    firstLanguageID: 3
+    slotCount: 0
+  - ID: 0
+    name: C1
+    firstLanguageID: 3
+    slotCount: 1
+  - ID: 0
+    name: C2
+    firstLanguageID: 3
+    slotCount: 2
+  - ID: 0
+    name: C3
+    firstLanguageID: 3
+    slotCount: 3
+  - ID: 0
+    name: C4
+    firstLanguageID: 0
+    slotCount: 4
+  - ID: 0
+    name: D
+    firstLanguageID: 4
+    slotCount: 0
+  - ID: 0
+    name: D1
+    firstLanguageID: 4
+    slotCount: 1
+  - ID: 0
+    name: D2
+    firstLanguageID: 4
+    slotCount: 2
+  - ID: 0
+    name: D3
+    firstLanguageID: 4
+    slotCount: 3
+  - ID: 0
+    name: D4
+    firstLanguageID: 4
+    slotCount: 4
+  - ID: 0
+    name: E
+    firstLanguageID: 5
+    slotCount: 0
+  - ID: 0
+    name: E1
+    firstLanguageID: 5
+    slotCount: 1
+  - ID: 0
+    name: E2
+    firstLanguageID: 5
+    slotCount: 2
+  - ID: 0
+    name: E3
+    firstLanguageID: 5
+    slotCount: 3
+  - ID: 0
+    name: E4
+    firstLanguageID: 5
+    slotCount: 4

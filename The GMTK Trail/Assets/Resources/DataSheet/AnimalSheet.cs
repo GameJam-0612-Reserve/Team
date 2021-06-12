@@ -6,22 +6,23 @@ using geniikw.DataSheetLab;
 
 
     [Serializable]
-    public class CharactorParameter
+    public class AnimalParameter
     {
         //ID
         public int ID;
 
         //名字
         public string name;
-
-        //三围
-        public float bust;
-        public float waist;
-        public float hipline;
+        
+        //物种，母语
+        public int firstLanguageID;
+        
+        //二语言栏
+        public int slotCount;
     }
 
     /// <summary>
     /// sheet class name must be same with file name.
     /// </summary>
     [CreateAssetMenu]
-    public class CharaSheet : Sheet<CharactorParameter> { }
+    public class AnimalSheet : Sheet<AnimalParameter> { }
