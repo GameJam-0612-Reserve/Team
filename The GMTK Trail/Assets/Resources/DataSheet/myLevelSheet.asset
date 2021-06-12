@@ -16,21 +16,34 @@ MonoBehaviour:
   - ID: 1
     name: Tutorial1-1
     Animals: 0200000007000000
+    NameOfNextScene: 03TutorialScene_Lv1_2
+    NameOfThisScene: 02TutorialScene_Lv1_1
   - ID: 2
     name: Tutorial1-2
     Animals: 01000000020000000600000007000000
+    NameOfNextScene: 04TutorialScene_Lv1_3
+    NameOfThisScene: 03TutorialScene_Lv1_2
   - ID: 3
     name: Tutorial1-3
     Animals: 020000000200000007000000070000000d0000000d000000
+    NameOfThisScene: 04TutorialScene_Lv1_3
   - ID: 4
     name: Level1-4
     Animals: 0100000007000000070000000c0000000e000000
+    NameOfNextScene: 06BasicScene_Lv1_5
+    NameOfThisScene: 05BasicScene_Lv1_4
   - ID: 5
     name: Level1-5
     Animals: 0400000007000000070000001000000011000000
+    NameOfNextScene: 07BasicScene_Lv1_6
+    NameOfThisScene: 06BasicScene_Lv1_5
   - ID: 6
     name: Level1-6
     Animals: 0200000003000000070000000e0000000f00000011000000
+    NameOfNextScene: 08BasicScene_Lv1_7
+    NameOfThisScene: 07BasicScene_Lv1_6
   - ID: 7
     name: Level1-7
     Animals: 0200000008000000080000001100000019000000
+    NameOfNextScene: TheEnd
+    NameOfThisScene: 08BasicScene_Lv1_7
