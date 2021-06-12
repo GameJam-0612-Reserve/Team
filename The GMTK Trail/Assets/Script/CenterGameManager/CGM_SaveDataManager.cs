@@ -15,6 +15,9 @@ public struct GameDate
 
 public class CGM_SaveDataManager : MonoBehaviour
 {
+    public AnimalSheet m_animalSheet;
+    public LanguageSheet m_languageSheet;
+
     //Start is called before the first frame update
     void Start()
     {

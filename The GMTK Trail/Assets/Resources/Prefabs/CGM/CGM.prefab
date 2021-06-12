@@ -438,6 +438,7 @@ MonoBehaviour:
   m_SceneLoader: {fileID: 8056290247809916424}
   m_SaveDataManager: {fileID: 8056290247809916425}
   m_UILoader: {fileID: 8056290247809916471}
+  m_AudioManager: {fileID: 0}
   State: 0
 --- !u!114 &8056290247809916425
 MonoBehaviour:
@@ -451,6 +452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cb4126f91136e043a4b01e5907fc813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_animalSheet: {fileID: 11400000, guid: afa9771ed8655434c97058f68137a29e, type: 2}
+  m_languageSheet: {fileID: 11400000, guid: 07d4953f5e974734bbc508bf13680aae, type: 2}
 --- !u!114 &8056290247809916424
 MonoBehaviour:
   m_ObjectHideFlags: 0
