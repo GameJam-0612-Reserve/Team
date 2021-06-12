@@ -12,9 +12,9 @@ public  class AnimalProperty : MonoBehaviour
     public int slotCount;
     public float learningSpeed;
     public bool canLearn;
-    public Sprite charaTexture;
-    public Sprite miniIconTexture;
-    public Sprite bigIconTexture;
+    public Sprite charaSprite;
+    public Sprite miniIconSprite;
+    public Sprite bigIconSprite;
     // Start is called before the first frame update
     public void Start()
     {
