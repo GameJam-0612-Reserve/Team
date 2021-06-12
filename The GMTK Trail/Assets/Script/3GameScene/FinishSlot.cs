@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using CGM;
 
 public class FinishSlot : MonoBehaviour
 {
-    private AnimalProperty holdingAnimal;
+    private AnimalDataBaseParameter holdingAnimal;
     public List<FinishLine> m_finishLines;
 
     // Start is called before the first frame update
@@ -19,9 +20,9 @@ public class FinishSlot : MonoBehaviour
         
     }
 
-    public void InThisSlot(AnimalProperty animalProperty)
+    public void InThisSlot(AnimalDataBaseParameter m_animalDataBasePara)
     {
-        holdingAnimal = animalProperty;
+        holdingAnimal = m_animalDataBasePara;
         CheckThisSlot();
     }
 
@@ -36,9 +37,16 @@ public class FinishSlot : MonoBehaviour
         foreach (FinishLine item in m_finishLines)
         {
             if (item.m_finishSlots[0].holdingAnimal != null && item.m_finishSlots[1].holdingAnimal != null)
-            { 
-                //执行检测方法
-                //根据检测结果改变line的表现
+            {
+                bool temp= CenterGameManager.instance.m_sheetManager.Compare(item.m_finishSlots[0].holdingAnimal, item.m_finishSlots[1].holdingAnimal);
+                if (temp)
+                {
+                    item.TurnToRight();
+                }
+                else
+                {
+                    item.TurnToWrong();
+                }
             }
             else
             {
@@ -46,4 +54,5 @@ public class FinishSlot : MonoBehaviour
             }
         }
     }
+
 }
