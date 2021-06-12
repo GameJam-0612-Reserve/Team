@@ -76,8 +76,10 @@
     <Compile Include="Assets\Script\CenterGameManager\CGM_GamePlayManager.cs" />
     <Compile Include="Assets\3rdParty\SaveGame\Scripts\SaveSystem\SaveSystem.cs" />
     <Compile Include="Assets\3rdParty\SaveGame\Scripts\SaveSystemSetup.cs" />
+    <Compile Include="Assets\Script\3GameScene\move.cs" />
     <Compile Include="Assets\Script\CenterGameManager\CGM_UILoader.cs" />
     <Compile Include="Assets\Script\CenterGameManager\SFX_SelfDestruction.cs" />
+    <Compile Include="Assets\Script\3GameScene\LinkData.cs" />
     <Compile Include="Assets\Script\CenterGameManager\CenterGameManager.cs" />
     <Compile Include="Assets\3rdParty\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\3rdParty\SaveGame\Scripts\SaveSystem\SaveSystemData.cs" />
@@ -87,8 +89,8 @@
     <Compile Include="Assets\3rdParty\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\3rdParty\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Script\CenterGameManager\CGM_SceneIniter.cs" />
-    <Compile Include="Assets\Script\3GameScene\move.cs" />
-    <Compile Include="Assets\Script\3GameScene\LinkData.cs" />
+    <Compile Include="Assets\Script\3GameScene\InitationAnimal.cs" />
+    <Compile Include="Assets\Script\3GameScene\AnimalProperty.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3rdParty\Demigiant\DOTween\DOTween.XML" />
