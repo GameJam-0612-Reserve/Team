@@ -6,6 +6,9 @@ namespace CGM
 {
     public class CenterGameManager : Singleton<CenterGameManager>
     {
+        [Header("我的SheetManager")]
+        public SheetManager m_sheetManager;
+
         [Header("我的SceneLoader")]
         public CGM_SceneLoader m_SceneLoader;
 

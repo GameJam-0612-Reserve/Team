@@ -397,6 +397,7 @@ GameObject:
   - component: {fileID: 8056290247809916425}
   - component: {fileID: 8056290247809916424}
   - component: {fileID: 8056290247809916471}
+  - component: {fileID: 3203954061857653822}
   - component: {fileID: 3437107701461924806}
   m_Layer: 0
   m_Name: CGM
@@ -435,6 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keepAlive: 0
+  m_sheetManager: {fileID: 3203954061857653822}
   m_SceneLoader: {fileID: 8056290247809916424}
   m_SaveDataManager: {fileID: 8056290247809916425}
   m_UILoader: {fileID: 8056290247809916471}
@@ -486,6 +488,18 @@ MonoBehaviour:
   BaseUI: {fileID: 8056290247616660494}
   FrontUI: {fileID: 8056290246330443126}
   ConfirmUI: {fileID: 8056290248289006917}
+--- !u!114 &3203954061857653822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8056290247809916468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8bf70b760407e42b5cff1c09d776c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3437107701461924806
 MonoBehaviour:
   m_ObjectHideFlags: 0
