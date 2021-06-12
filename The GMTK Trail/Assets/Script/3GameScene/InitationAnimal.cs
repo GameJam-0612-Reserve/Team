@@ -23,6 +23,8 @@ public class InitationAnimal : MonoBehaviour
             ani.animalTypel = CenterGameManager.instance.m_SaveDataManager.m_animalSheet.data.Find(c => c.ID == id).type;
             ani.slotCount = CenterGameManager.instance.m_SaveDataManager.m_animalSheet.data.Find(c => c.ID == id).slotCount;
 
+
+
             //ani.
             currentLevelAnimals.Add(ani);
 
