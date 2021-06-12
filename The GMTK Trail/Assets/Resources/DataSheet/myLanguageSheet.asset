@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f9b7677e5338a4cbd9ad49ead62fc9, type: 3}
+  m_Name: myLanguageSheet
+  m_EditorClassIdentifier: 
+  data:
+  - ID: 1
+    type: 0
+    LearningSpeed: 1
+    canLearn: 1
+    charaTexture: {fileID: 10910, guid: 0000000000000000f000000000000000, type: 0}
+    iconTexture: {fileID: 2800000, guid: c8b458b7ebbdce942aaaf1ae80f16458, type: 3}
+  - ID: 2
+    type: 1
+    LearningSpeed: 1
+    canLearn: 1
+    charaTexture: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    iconTexture: {fileID: 10900, guid: 0000000000000000f000000000000000, type: 0}
+  - ID: 3
+    type: 2
+    LearningSpeed: 0.5
+    canLearn: 1
+    charaTexture: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
+    iconTexture: {fileID: 10914, guid: 0000000000000000f000000000000000, type: 0}
+  - ID: 4
+    type: 3
+    LearningSpeed: 8
+    canLearn: 1
+    charaTexture: {fileID: 2800000, guid: 78a59ca99f8987941adb61f9e14a06a7, type: 3}
+    iconTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  - ID: 5
+    type: 4
+    LearningSpeed: 0
+    canLearn: 0
+    charaTexture: {fileID: 2800000, guid: faadb8b8f464c5940ba8cff422aa60ec, type: 3}
+    iconTexture: {fileID: 10305, guid: 0000000000000000f000000000000000, type: 0}
