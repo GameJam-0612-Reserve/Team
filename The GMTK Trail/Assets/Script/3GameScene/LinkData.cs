@@ -39,9 +39,15 @@ public class LinkData : MonoBehaviour
             {
                 if (currentLearnTime >= defaultLearnTime)
                 {
-                    Debug.Log("开始互相学习");           
-                    FindNoSpriteSlotAndChangeSprite(obj1, obj2.GetComponent<Image>().sprite);
-                    FindNoSpriteSlotAndChangeSprite(obj2, obj1.GetComponent<Image>().sprite);
+                    Debug.Log("开始互相学习");
+                    if (obj1.GetComponent<AnimalProperty>().animalTypel.Equals(obj2.GetComponent<AnimalProperty>().animalTypel))
+                    {
+                        Debug.Log("同类之间不需要学习语言");
+                        LinkObjs.Clear();
+                        return;
+                    }
+                    FindNoSpriteSlotAndChangeSprite(obj1, obj2.GetComponent<AnimalProperty>().miniIconSprite);
+                    FindNoSpriteSlotAndChangeSprite(obj2, obj1.GetComponent<AnimalProperty>().miniIconSprite);
                     LinkObjs.Remove(obj2);
                     LinkObjs.Remove(obj1);
                     linkMove = false;
@@ -54,6 +60,11 @@ public class LinkData : MonoBehaviour
                 }
             }
         }
+        else if (LinkObjs.Count >2)
+        {
+            LinkObjs.Clear();
+            return;
+        }
         else
         {
             linkMove = false;
@@ -63,16 +74,40 @@ public class LinkData : MonoBehaviour
 
     void FindNoSpriteSlotAndChangeSprite(GameObject obj,Sprite needChangeImage)
     {
+        //拿到language插槽
         Transform languageSlots = obj.gameObject.transform.GetChild(0);
 
+        //遍历插槽 找到第一个 slot 下没有子物体即没有语言的插槽
         for (int i = 0; i < languageSlots.childCount; i++)
         {
-            if (languageSlots.GetChild(i).GetComponent<Image>().sprite==null)
+            if (languageSlots.GetChild(i).childCount == 0)
             {
-                languageSlots.GetChild(i).GetComponent<Image>().sprite = needChangeImage;
+                //将另一个元素的sprite转变为 当前slot的子物体 sprite从animalProperty中取 miniIcon
+                GameObject miniIcon = new GameObject();
+                miniIcon.AddComponent<Image>();
+                miniIcon.GetComponent<Image>().sprite = needChangeImage;
+                miniIcon.transform.SetParent(languageSlots.GetChild(i));
+                miniIcon.transform.localPosition = Vector2.zero;
                 return;
             }
         }
+
+
+        //for (int i = 0; i < languageSlots.childCount; i++)
+        //{
+        //    if (languageSlots.GetChild(i).childCount>0)
+        //    {
+        //        for (int j = 0; j < languageSlots.GetChild(i).childCount; j++)
+        //        {
+        //            if (languageSlots.GetChild(i).GetChild(j)
+        //            {
+
+        //            }
+        //        }
+        //        languageSlots.GetChild(i).GetComponent<Image>().sprite = needChangeImage;
+        //        return;
+        //    }
+        //}
     
     }
 

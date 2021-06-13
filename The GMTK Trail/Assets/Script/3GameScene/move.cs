@@ -75,6 +75,7 @@ public class move : MonoBehaviour,IPointerClickHandler,IBeginDragHandler, IDragH
     {
         if (!inCheckMenu)
         {
+            Debug.Log(inCheckMenu);
             GameObject lindataObj = GameObject.FindGameObjectWithTag("LinkData");
             LinkData linkData = lindataObj.GetComponent<LinkData>();
             linkData.LinkObjs.Add(transform.gameObject);
@@ -107,12 +108,16 @@ public class move : MonoBehaviour,IPointerClickHandler,IBeginDragHandler, IDragH
         {
             transform.SetParent(colliderObj.transform);
             transform.localPosition = Vector2.zero;
+            transform.GetComponent<Image>().sprite = transform.GetComponent<AnimalProperty>().bigIconSprite;
+            transform.GetComponent<RectTransform>().sizeDelta = new Vector2(124,125);
+
         }
 
 
         if (colliderObj != null && colliderObj.gameObject.CompareTag("LinkMenu"))
         {
             inCheckMenu = false;
+            transform.GetComponent<Image>().sprite = transform.GetComponent<AnimalProperty>().charaSprite;
             Debug.Log(!isLinkMove + " " + !isDraging + "  " + !inCheckMenu + "  " + !isStopMove);
         }
     }
